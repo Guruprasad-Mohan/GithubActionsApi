@@ -27,7 +27,7 @@ namespace GithubActionsDemoApi.Controllers
         [Route("healthCheck")]
         public IActionResult HealthCheck()
         {
-            return Ok("The API is running fine!!!");
+            return Ok("The API is running fine!!!. This is after the deploy to Web app (CD)");
         }
 
         //[HttpGet]
